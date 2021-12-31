@@ -24,8 +24,6 @@ offline_alpha: 0        # The adaptive drop rate and the value represents its in
 win_gate: 0.75          # The threshold that helps update the adaptive crash rate
 crashed: 0         # Set a fixed crash rate during the experiment
 resample: 1         # Determine whether to re-sample in our method and 1 represents re-sampling
-offline_path: ""           # To compute the Q_total value of the model stored under this path
-test_q: False                 # Determine whether to test the Q_total value.
 curriculum: False
 curri_start: 0        # Measured by the t_max
 curri_end:  0.5
